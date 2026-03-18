@@ -1,3 +1,7 @@
+<div align="center">
+<img src='https://github.com/user-attachments/assets/38baa5b6-b6c4-42a3-96ae-f5a300013b5c' alt='MGBIE' height='150px'>
+</div>
+
 # <p align="center"><font size=50><strong>[CCL2026 第一届杂粮育种信息抽取评测](https://github.com/zhiweihu1103/CCL2026-MGBIE)</strong></font></p>
 
 <div> 
