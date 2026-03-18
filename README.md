@@ -4,12 +4,7 @@
 
 # <p align="center"><font size=50><strong>[CCL2026 第一届杂粮育种信息抽取评测](https://github.com/zhiweihu1103/CCL2026-MGBIE)</strong></font></p>
 
-<div> <div align="center"> 山西省后稷实验室&emsp; &nbsp;山西农业大学&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;山西大学&emsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;武汉大学&emsp; </div> </div> 
-<div align="center"> 
-  <img src='https://github.com/user-attachments/assets/aa11d15e-f55a-4b48-af90-b8be6e101a87' alt='山西省后稷实验室' height='90px'> &emsp; <!-- Adds extra spacing between images --> 
-  <img src='https://github.com/user-attachments/assets/4d0aa98e-8b86-4d34-b8cd-1f65ec6256ed' alt='山西农业大学' height='90px'> &emsp;&emsp;&emsp;&emsp; <!-- Adds extra spacing between images --> 
-  <img src='https://github.com/user-attachments/assets/94aeaa28-45dc-446c-9a8d-9f39fc51bd44' alt='山西大学' height='90px'> &emsp;&emsp;&emsp;&emsp; <!-- Adds extra spacing between images --> 
-  <img src='https://github.com/user-attachments/assets/ebbb1edd-21db-4d6f-83b1-a161904461bd' alt='武汉大学' height='90px'> </div>
+<div align="center"> <img src='https://github.com/user-attachments/assets/aa11d15e-f55a-4b48-af90-b8be6e101a87' alt='山西省后稷实验室' height='90px'> &emsp;&emsp;&emsp;&emsp; <!-- Adds extra spacing between images --> <img src='https://github.com/user-attachments/assets/4d0aa98e-8b86-4d34-b8cd-1f65ec6256ed' alt='山西农业大学' height='90px'> &emsp;&emsp;&emsp;&emsp; <!-- Adds extra spacing between images --> <img src='https://github.com/user-attachments/assets/94aeaa28-45dc-446c-9a8d-9f39fc51bd44' alt='山西大学' height='90px'> &emsp;&emsp;&emsp;&emsp; <!-- Adds extra spacing between images --> <img src='https://github.com/user-attachments/assets/ebbb1edd-21db-4d6f-83b1-a161904461bd' alt='武汉大学' height='90px'> </div>
 
 ## 评测组织者
 * 胡志伟（山西省后稷实验室、山西农业大学）
