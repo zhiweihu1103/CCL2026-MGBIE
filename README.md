@@ -4,27 +4,36 @@
 
 # <p align="center"><font size=50><strong>[CCL2026 第一届杂粮育种信息抽取评测](https://github.com/zhiweihu1103/CCL2026-MGBIE)</strong></font></p>
 
-<p align="center">
-  <span>
-    山西省后稷实验室<br>
-    <img src="https://github.com/user-attachments/assets/aa11d15e-f55a-4b48-af90-b8be6e101a87" alt="山西省后稷实验室" height="90px">
-  </span>
-  &emsp;&emsp;&emsp;
-  <span>
-    山西农业大学<br>
-    <img src="https://github.com/user-attachments/assets/4d0aa98e-8b86-4d34-b8cd-1f65ec6256ed" alt="山西农业大学" height="90px">
-  </span>
-  &emsp;&emsp;&emsp;
-  <span>
-    山西大学<br>
-    <img src="https://github.com/user-attachments/assets/94aeaa28-45dc-446c-9a8d-9f39fc51bd44" alt="山西大学" height="90px">
-  </span>
-  &emsp;&emsp;&emsp;
-  <span>
-    武汉大学<br>
-    <img src="https://github.com/user-attachments/assets/ebbb1edd-21db-4d6f-83b1-a161904461bd" alt="武汉大学" height="90px">
-  </span>
-</p>
+<div align="center">
+  <table>
+    <tr align="center">
+      <td>山西省后稷实验室</td>
+      <td>&emsp;&emsp;&emsp;</td>
+      <td>山西农业大学</td>
+      <td>&emsp;&emsp;&emsp;</td>
+      <td>山西大学</td>
+      <td>&emsp;&emsp;&emsp;</td>
+      <td>武汉大学</td>
+    </tr>
+    <tr align="center">
+      <td>
+        <img src='https://github.com/user-attachments/assets/aa11d15e-f55a-4b48-af90-b8be6e101a87' height='90px'>
+      </td>
+      <td></td>
+      <td>
+        <img src='https://github.com/user-attachments/assets/4d0aa98e-8b86-4d34-b8cd-1f65ec6256ed' height='90px'>
+      </td>
+      <td></td>
+      <td>
+        <img src='https://github.com/user-attachments/assets/94aeaa28-45dc-446c-9a8d-9f39fc51bd44' height='90px'>
+      </td>
+      <td></td>
+      <td>
+        <img src='https://github.com/user-attachments/assets/ebbb1edd-21db-4d6f-83b1-a161904461bd' height='90px'>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ## 评测组织者
 * 胡志伟（山西省后稷实验室、山西农业大学）
