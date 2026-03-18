@@ -1,4 +1,4 @@
-# <p align="center"><font size=50><strong>[CCL2026 第一届杂粮育种信息抽取评测](http://www.cips-cl.org/static/CCL2025/cclEval/taskEvaluation/index.html#%E4%BB%BB%E5%8A%A17%E7%AC%AC%E4%B8%80%E5%B1%8A%E4%B8%AD%E5%9B%BD%E6%96%87%E5%AD%A6%E8%AF%AD%E8%A8%80%E7%90%86%E8%A7%A3%E8%AF%84%E6%B5%8B%EF%BC%88%E4%BA%89%E9%B8%A3%EF%BC%89)</strong></font></p>
+# <p align="center"><font size=50><strong>[CCL2026 第一届杂粮育种信息抽取评测](https://github.com/zhiweihu1103/CCL2026-MGBIE)</strong></font></p>
 
 ## 评测组织者
 * 胡志伟（山西省后稷实验室、山西农业大学）
