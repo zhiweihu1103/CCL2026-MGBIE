@@ -4,7 +4,7 @@
 
 # <p align="center"><font size=50><strong>[CCL2026 第一届杂粮育种信息抽取评测](https://github.com/zhiweihu1103/CCL2026-MGBIE)</strong></font></p>
 
-<div align="center" style="display: flex; justify-content: center; gap: 40px; flex-wrap: wrap;">
+<div align="center" style="display: flex; justify-content: center; gap: 40px; white-space: nowrap;">
 
   <div style="text-align: center;">
     <div>山西省后稷实验室</div>
