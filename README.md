@@ -1,5 +1,13 @@
 # <p align="center"><font size=50><strong>[CCL2026 第一届杂粮育种信息抽取评测](https://github.com/zhiweihu1103/CCL2026-MGBIE)</strong></font></p>
 
+<div> 
+<div align="center"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;云南大学&emsp; 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;武汉大学&emsp; 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;四川大学&emsp; 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;云南师范大学&emsp; 
+</div> 
+</div> 
+
 ## 评测组织者
 * 胡志伟（山西省后稷实验室、山西农业大学）
 * 孔照胜（山西省后稷实验室、山西农业大学）
