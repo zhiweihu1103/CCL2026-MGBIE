@@ -45,25 +45,16 @@
 | 非生物胁迫 | Abiotic Stress (ABS) | 非生命因素引起的胁迫条件 | 干旱胁迫 |
 | 生物胁迫 | Biotic Stress (BIS) | 生物因素引起的胁迫类型 | 螟虫、蚜虫 |
 
-### 2.2 关系抽取任务
+### 2.2 关系抽取任务（六类语义关系）
 
-| 关系名称 | 英文（缩写） | 关系类型| 说明 | 示例 |
-|----------|-------------|----------------------|------|------|
-| 作物-包含品种 | has_variety (HV) | (CROP, VAR) | 品种属于某作物 | 晋谷21号属于谷子 |
-| 品种-采用育种方法 | uses_breeding_method (UBM) | (VAR, BM) | 品种选育所用方法 | 晋谷21号采用杂交育种 |
-| 品种-具有性状 | has_trait (HT) | (VAR, TRT) | 品种具备或关注某性状 | 晋谷21号具有抗倒伏 |
-| 非生物胁迫-影响性状 | affects_trait (AT) | (ABS, TRT) | 非生物胁迫对性状产生影响 | 干旱胁迫影响产量 |
-| 性状-发生于生育时期 | trait_measured_at_stage (TMAS) | (TRT, GST) | 性状在某时期测定 | 千粒重测定于成熟期 |
-| 非生物胁迫-发生于生育时期 | stress_occurs_at_stage (SOAS) | (ABS, GST) | 胁迫发生阶段 | 低温胁迫发生于拔节期 |
-| QTL-关联性状 | qtl_associated_trait (QAT) | (QTL, TRT) | QTL对应目标性状 | qPH3.1关联株高 |
-| 基因-影响性状 | gene_affects_trait (GAT) | (GENE, TRT) | 基因调控性状 | Waxy影响直链淀粉含量 |
-| 分子标记-关联性状 | marker_associated_trait (MAT) | (MRK, TRT) | 标记与性状关联 | SNP_rs12345关联抗旱性 |
-| 分子标记-定位于QTL | marker_in_qtl (MIQ) | (MRK, QTL) | 标记指示或位于QTL | KASP_Chr2_15Mb定位于qYLD2.2 |
-| QTL-位于染色体 | qtl_on_chromosome (QOC) | (QTL, CHR) | QTL所在染色体 | qPH3.1位于Chr3 |
-| 分子标记-位于染色体 | marker_on_chromosome (MOC) | (MRK, CHR) | 标记所在染色体 | SNP_rs12345位于Chr2 |
-| 基因-位于染色体 | gene_on_chromosome (GOC) | (GENE, CHR) | 基因所在染色体 | DREB位于Chr1 |
-| 品种-抗生物胁迫 | resistant_to_biotic_stress (RTP) | (VAR, BIS) | 品种抗病虫害 | 晋谷21号抗蚜虫 |
-| 生物胁迫-发生于生育时期 | biotic_stress_occurs_at_stage (POAS) | (BIS, GST) | 生物胁迫发生时期 | 螟虫发生于灌浆期 |
+| 关系名称 | 英文（缩写） | 关系类型 | 说明 | 示例 |
+|----------|-------------|----------|------|------|
+| 包含 | CONTAINS (CON) | (CROP, VAR) | 品种属于某作物 | 晋谷21号属于谷子 |
+| 采用 | USES (USE) | (VAR, BM) | 品种选育所用方法 | 晋谷21号采用杂交育种 |
+| 具有 | HAS (HAS) | (VAR, TRT) | 品种具备或关注某性状 | 晋谷21号具有抗倒伏 |
+| 影响 | AFFECTS (AFF) | (ABS/GENE/MRK/QTL, TRT) | 非生物胁迫、基因、分子标记或QTL对性状产生影响 | 干旱胁迫影响产量 |
+| 发生于 | OCCURS_IN (OCI) | (TRT/ABS/BIS, GST) | 性状或胁迫发生于某生育时期 | 千粒重测定于成熟期 |
+| 定位于 | LOCATED_IN (LOI) | (MRK/QTL/GENE, CHR) | 分子标记、QTL或基因定位于染色体或区间 | KASP_Chr2_15Mb定位于qYLD2.2 |
 
 ## 3 评价标准
 本评测的两个任务均采用Precision、Recall 和 F1-Score作为评价指标。
