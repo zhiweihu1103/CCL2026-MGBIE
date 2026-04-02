@@ -56,6 +56,83 @@
 | 发生于 | OCCURS_IN (OCI) | (TRT/ABS/BIS, GST) | 性状或胁迫发生于某生育时期 | 千粒重测定于成熟期 |
 | 定位于 | LOCATED_IN (LOI) | (MRK/QTL/GENE, CHR) | 分子标记、QTL或基因定位于染色体或区间 | KASP_Chr2_15Mb定位于qYLD2.2 |
 
+### 2.3 数据样例
+
+本次评测提供了JSON 格式的数据集。以下为相应的数据样例：
+```json
+{
+    "text": "A genome-wide association study analyzed 425 foxtail millet samples from Xinjiang Academy using 1,304,248 SNPs. 77 QTL regions were detected across three environments. Analysis of LD, genetic structure, clustering, and phylogeny showed regional differences among foxtail millet subgroups.",
+    "entities": [
+        {
+            "start": 2,
+            "end": 31,
+            "text": "genome-wide association study",
+            "label": "BM"
+        },
+        {
+            "start": 45,
+            "end": 59,
+            "text": "foxtail millet",
+            "label": "CROP"
+        },
+        {
+            "start": 106,
+            "end": 110,
+            "text": "SNPs",
+            "label": "MRK"
+        },
+        {
+            "start": 115,
+            "end": 126,
+            "text": "QTL regions",
+            "label": "QTL"
+        }
+    ],
+    "relations": [
+        {
+            "head": "foxtail millet",
+            "head_start": 45,
+            "head_end": 59,
+            "head_type": "CROP",
+            "tail": "QTL regions",
+            "tail_start": 115,
+            "tail_end": 126,
+            "tail_type": "QTL",
+            "label": "CON"
+        },
+        {
+            "head": "SNPs",
+            "head_start": 106,
+            "head_end": 110,
+            "head_type": "MRK",
+            "tail": "QTL regions",
+            "tail_start": 115,
+            "tail_end": 126,
+            "tail_type": "QTL",
+            "label": "LOI"
+        }
+    ]
+}
+```
+### 数据说明
+
+- **text**：原始输入文本，用于实体识别和关系提取。
+
+- **entities**：文本中识别出的实体，每个对象包含：
+  - `start`：实体起始字符索引  
+  - `end`：实体结束字符索引  
+  - `text`：实体文本  
+  - `label`：实体类别  
+
+- **relations**：文本中实体之间的关系。每个对象包含：
+  - `head`：起始实体文本  
+  - `head_start` / `head_end`：起始实体索引  
+  - `head_type`：起始实体类别  
+  - `tail`：目标实体文本  
+  - `tail_start` / `tail_end`：目标实体索引  
+  - `tail_type`：目标实体类别  
+  - `label`：关系类型
+    
 ## 3 评价标准
 本评测的两个任务均采用Precision、Recall 和 F1-Score作为评价指标。
 
